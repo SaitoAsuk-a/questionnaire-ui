@@ -1,23 +1,31 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <!-- <img src="./assets/logo.png"> -->
+    <v-header></v-header>
     <router-view/>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'App'
-}
+    import vHeader from './components/Header'
+
+    export default {
+        name: 'App',
+        components: {
+            vHeader
+        }
+    }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
+  @import url(./style/reset.css);
+
+  #app {
+    min-width: 110rem;
+    height: 100%;
+    font-family: arial;
+    background-color: #efefef;
+    overflow: auto;
+  }
 </style>
