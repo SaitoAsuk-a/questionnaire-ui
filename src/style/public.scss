@@ -1,7 +1,4 @@
-/*
-* @Author: NiceMing
-* @Date:   2018-03-06 19:29:50
-*/
+
 $white: #fff;
 $orange: #f07600;
 $deep-orange: #c26206;
@@ -34,7 +31,7 @@ $font-color: #555;
 
 }
 
-@mixin nomal-btn {
+@mixin normal-btn {
 	span {
 		display: inline-block;
 		width: 7.5rem;
@@ -123,7 +120,7 @@ $font-color: #555;
 
 		footer {
 			text-align: center;
-			@include nomal-btn;
+			@include normal-btn;
 
 			span {
 				width: 7rem;

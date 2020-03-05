@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '../components/HelloWorld'
 import List from "../components/List";
+import questionnaireList from "../components/QuestionnaireList"
 
 Vue.use(Router)
 
@@ -9,8 +10,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'List',
-      component: List
+      name: 'questionnaireList',
+      component: questionnaireList
     }
   ]
 })
