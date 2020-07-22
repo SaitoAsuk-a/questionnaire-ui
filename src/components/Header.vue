@@ -2,7 +2,7 @@
 	<header id="header">
 		<h2>问卷管理</h2>
 		<router-link tag="h3" to="/">我的问卷</router-link>
-    <h3 @click="$router.push({name: 'editQuestionnaire', params: {id: 0}})">新建问卷</h3>
+    <h3 @click="$router.push({name: 'questionnaireEdit'})">新建问卷</h3>
 	</header>
 </template>
 

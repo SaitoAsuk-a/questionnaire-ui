@@ -15,8 +15,8 @@ export default new Router({
       component: questionnaireList
     },
     {
-      path: '/questionnaireEdit/:id',
-      name: 'editQuestionnaire',
+      path: '/questionnaireEdit',
+      name: 'questionnaireEdit',
       component: questionnaireEdit
     }
   ]
